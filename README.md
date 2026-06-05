@@ -49,19 +49,6 @@ An **AI-powered automated counting system** that:
 | **Phase 1** | `bag_counting_extract_frames.py` | Extract frames from video → Upload to Roboflow for labeling |
 | **Phase 2** | `bag_counting_with_labeled_dataset.py` | Train YOLOv8 model → Run inference → Generate counts |
 
-### Data Flow Diagram
-
-┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-│ CCTV Video │────▶│ YOLOv8 AI │────▶│ Crossing │────▶│ Audit │
-│ (24/7 Feed)│ │ Detection │ │ Counter │ │ Report │
-└─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
-│ │
-▼ ▼
-┌─────────────┐ ┌─────────────┐
-│ Men with │ │ IN: 1,247 │
-│ bags (GREEN)│ │ OUT: 1,203 │
-└─────────────┘ └─────────────┘
-
 ---
 
 ## 📊 System Architecture
