@@ -1,7 +1,7 @@
 # 🥔 Talha Cold Storage - Automated Bag Counting System
 
-[![Demo Video](https://img.youtube.com/vi/XXXXXXXXXXX/0.jpg)](https://www.youtube.com/watch?v=XXXXXXXXXXX)
-> *Click above to watch demo | Replace `XXXXXXXXXXX` with your YouTube video ID*
+Demo Video link
+(https://drive.google.com/file/d/1vwUnzoJrrYoSFUrHprQ6VJAut1nJIA8r/view?usp=sharing)
 
 ---
 
