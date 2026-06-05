@@ -60,45 +60,6 @@ An **AI-powered automated counting system** that:
 | **Phase 1** | `bag_counting_extract_frames.py` | Extract frames from video → Upload to Roboflow for labeling |
 | **Phase 2** | `bag_counting_with_labeled_dataset.py` | Train YOLOv8 model → Run inference → Generate counts |
 
-### Data Flow Diagram
-Raw CCTV Video
-│
-▼
-┌─────────────────────────────────────────────────────────────┐
-│ PHASE 1: Data Preparation │
-│ ├── Extract 1 frame every 2 seconds │
-│ ├── Save as JPG images │
-│ └── Zip for upload to Roboflow │
-└─────────────────────────────────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────┐
-│ MANUAL LABELING (Roboflow) │
-│ ├── Draw bounding boxes around "men_carrying_bag" │
-│ ├── Draw bounding boxes around "men_without_bag" │
-│ └── Export dataset as ZIP │
-└─────────────────────────────────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────┐
-│ PHASE 2: Training & Counting │
-│ ├── Upload labeled dataset │
-│ ├── Train YOLOv8 for 50-100 epochs │
-│ ├── Test on validation images │
-│ ├── Run on full video with virtual counting line │
-│ └── Generate audit report │
-└─────────────────────────────────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────┐
-│ OUTPUT │
-│ ├── Counted video (with bounding boxes) │
-│ ├── IN/OUT summary │
-│ ├── Detailed log with timestamps │
-│ └── Audit report for management │
-└─────────────────────────────────────────────────────────────┘
-
----
 
 ## 🎯 Detection Classes
 
