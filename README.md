@@ -1,3 +1,42 @@
+# 🥔 Talha Cold Storage - Automated Bag Counting System
+
+[![Demo Video](https://img.youtube.com/vi/XXXXXXXXXXX/0.jpg)](https://www.youtube.com/watch?v=XXXXXXXXXXX)
+> *Click above to watch demo | Replace `XXXXXXXXXXX` with your YouTube video ID*
+
+---
+
+## 📌 The Problem
+
+**Talha Cold Storage** is a potato storage facility with capacity for:
+- **80,000** small bags (60 kg each) OR
+- **40,000** large bags (120 kg each)
+
+### The Challenge
+Manual counting of bags entering and exiting the storage is:
+- ❌ **Error-prone** - Human errors lead to inventory discrepancies
+- ❌ **Time-consuming** - Staff must stand and count for hours
+- ❌ **No audit trail** - No proof of actual counts for reconciliation
+- ❌ **Labor intensive** - Requires dedicated personnel at the door
+
+### The Impact
+Without accurate counting, the business cannot:
+- Track actual inventory vs. expected
+- Settle disputes with farmers/customers
+- Detect theft or unauthorized movements
+- Generate reliable audit reports
+
+---
+
+## 💡 The Solution
+
+An **AI-powered automated counting system** that:
+- ✅ **Counts 24/7** from CCTV footage
+- ✅ **Distinguishes** men carrying bags vs. men without bags
+- ✅ **Tracks direction** - Entering vs. Exiting
+- ✅ **Generates audit reports** with timestamp and evidence
+- ✅ **99%+ accuracy** after custom training
+
+### How It Works
 
 ---
 
